@@ -1,0 +1,288 @@
+<html class="scroll-smooth" lang="id">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Tugas Kenusaputraan
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f0f4f8;
+    }
+   /* Scrollbar styling for profile panel */
+   #profilePanel::-webkit-scrollbar {
+     width: 8px;
+   }
+   #profilePanel::-webkit-scrollbar-thumb {
+     background-color: #a3bffa;
+     border-radius: 4px;
+   }
+   #profilePanel::-webkit-scrollbar-track {
+     background-color: #e0e7ff;
+   }
+   /* Modal background blur */
+   #profileOverlay {
+     backdrop-filter: blur(8px);
+     background-color: rgba(99, 102, 241, 0.4); /* indigo-500 with opacity */
+     display: none;
+   }
+   #profileOverlay.show {
+     display: flex;
+   }
+  </style>
+ </head>
+ <body class="min-h-screen flex flex-col items-center p-4">
+  <main class="w-full max-w-6xl flex justify-center flex-grow">
+   <section class="w-full max-w-4xl flex flex-col space-y-10 bg-white rounded-lg shadow-md p-10">
+    <header class="mb-8">
+     <h1 class="text-5xl font-extrabold text-indigo-700 text-center select-none">
+      Menikmati Kebersamaan di Tengah Kesibukan
+     </h1>
+    </header>
+    <!-- Paragraf 1 -->
+    <article class="flex flex-col md:flex-row md:items-start md:space-x-10">
+     <div class="md:flex-1 text-left text-gray-800 text-xl leading-relaxed">
+      <p>
+        Di tengah ritme kehidupan yang semakin cepat, 
+        menjaga hubungan dengan teman dan keluarga menjadi sebuah kebutuhan emosional yang tak ternilai. 
+        Kesibukan sering kali membuat kita lupa untuk berhenti sejenak dan menikmati waktu bersama orang-orang terdekat. Padahal, 
+        momen-momen sederhana seperti berkumpul di sebuah kafe yang nyaman bisa menjadi obat ampuh untuk melepas penat dan mempererat ikatan yang ada.
+      </p>
+     </div>
+     <div aria-label="Lihat gambar pemandangan gunung" class="md:w-72 mt-6 md:mt-0 flex flex-col items-center cursor-pointer group" role="button" tabindex="0">
+      <img alt="Pemandangan alam gunung dengan langit biru cerah dan awan putih yang lembut" class="rounded-lg shadow-md w-full object-cover transition-transform duration-200 group-hover:scale-105" height="180" src="4.jpg" width="288"/>
+      <p class="mt-3 text-sm text-indigo-600 font-medium text-center select-text max-w-xs">
+       Foto Bang Zaki nyengir
+      </p>
+     </div>
+    </article>
+    <!-- Paragraf 2 -->
+    <article class="flex flex-col md:flex-row md:items-start md:space-x-10">
+     <div class="md:flex-1 text-left text-gray-800 text-xl leading-relaxed">
+      <p>
+        Berkumpul di tempat yang nyaman bukan hanya soal tempat, 
+        tetapi juga tentang suasana yang mendukung untuk berbagi tawa dan cerita. 
+        Sebuah kafe dengan interior hangat, dihiasi tanaman hijau yang menyegarkan mata, 
+        dapat menciptakan nuansa santai yang membuat siapa pun betah berlama-lama. 
+        Obrolan ringan, canda tawa, dan senyum yang mengembang menjadi bagian dari kenangan yang tak terlupakan.
+        Setiap individu memiliki kisah hidup yang menarik untuk diceritakan. 
+        Saat berkumpul, tidak jarang kita saling berbagi cerita tentang perjalanan hidup, 
+        pencapaian, tantangan, hingga impian yang ingin diraih. Dari cerita-cerita itu, 
+        tumbuh rasa saling pengertian dan dukungan yang tulus. Momen seperti ini bukan hanya memperkuat hubungan, 
+        tetapi juga memberi semangat baru dalam menghadapi hari-hari ke depan.
+      </p>
+     </div>
+     <div aria-label="Lihat gambar kucing oranye di taman" class="md:w-72 mt-6 md:mt-0 flex flex-col items-center cursor-pointer group" role="button" tabindex="0">
+      <img alt="Seekor kucing lucu berwarna oranye sedang duduk di taman dengan bunga warna-warni" class="rounded-lg shadow-md w-full object-cover transition-transform duration-200 group-hover:scale-105" height="180" src="5.jpg" width="288"/>
+      <p class="mt-3 text-sm text-indigo-600 font-medium text-center select-text max-w-xs">
+       Saudara Fajar dan Ridho selesai menikmati makanan mereka (mereka tampak bahagia)
+      </p>
+     </div>
+    </article>
+    <!-- Paragraf 3 -->
+    <article class="flex flex-col md:flex-row md:items-start md:space-x-10">
+     <div class="md:flex-1 text-left text-gray-800 text-xl leading-relaxed">
+      <p>
+        Kebersamaan semakin terasa spesial ketika diisi dengan kegiatan seru. 
+        Makan bersama sambil mencicipi hidangan favorit seperti mie, nasi goreng, 
+        atau dessert manis bisa menjadi bagian dari kesenangan. Tidak hanya itu, permainan sederhana 
+        atau menonton film bersama juga bisa menjadi pelengkap yang mempererat kebersamaan. 
+        Aktivitas-aktivitas kecil ini mampu menciptakan atmosfer penuh tawa dan kebahagiaan.
+      </p>
+     </div>
+     <div aria-label="Lihat gambar pantai pasir putih" class="md:w-72 mt-6 md:mt-0 flex flex-col items-center cursor-pointer group" role="button" tabindex="0">
+      <img alt="Pantai dengan pasir putih halus dan laut biru jernih di bawah langit cerah" class="rounded-lg shadow-md w-full object-cover transition-transform duration-200 group-hover:scale-105" height="180" src="1.jpg" width="288"/>
+      <p class="mt-3 text-sm text-indigo-600 font-medium text-center select-text max-w-xs">
+       Foto Bersama teman teman
+      </p>
+     </div>
+    </article>
+    <!-- Paragraf 4 -->
+    <article class="flex flex-col md:flex-row md:items-start md:space-x-10">
+     <div class="md:flex-1 text-left text-gray-800 text-xl leading-relaxed">
+      <p>
+        Sebagai mahasiswa Nusa Putra, momen kebersamaan seperti ini mengajarkan kami makna dari Amor Concervis, 
+        yaitu cinta kepada sesama. Di tengah kesibukan akademik dan rutinitas yang padat, 
+        meluangkan waktu untuk berkumpul menjadi bentuk nyata dari kepedulian dan rasa sayang terhadap teman-teman. 
+        Ketika kami tertawa bersama, berbagi cerita, dan saling menguatkan, 
+        kami menyadari bahwa menjalin hubungan baik dengan sesama adalah nilai penting yang tak boleh diabaikan. 
+        Ini bukan sekadar pertemuan biasa, tapi wujud nyata dari karakter yang dibentuk oleh nilai-nilai 
+        luhur Nusa Putra.
+      </p>
+     </div>
+     <div aria-label="Lihat gambar pemandangan kota malam hari" class="md:w-72 mt-6 md:mt-0 flex flex-col items-center cursor-pointer group" role="button" tabindex="0">
+      <img alt="Pemandangan kota di malam hari dengan lampu jalan dan gedung-gedung bercahaya" class="rounded-lg shadow-md w-full object-cover transition-transform duration-200 group-hover:scale-105" height="180" src="3.jpg" width="288"/>
+      <p class="mt-3 text-sm text-indigo-600 font-medium text-center select-text max-w-xs">
+       Foto Bersama teman teman
+      </p>
+     </div>
+    </article>
+   </section>
+  </main>
+  <button aria-controls="profileOverlay" aria-expanded="false" class="fixed bottom-6 right-6 bg-indigo-600 hover:bg-indigo-700 focus:bg-indigo-700 text-white rounded-full p-4 shadow-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 z-50" id="toggleProfileBtn" title="Tampilkan / Sembunyikan Profil">
+   <i class="fas fa-user fa-lg">
+   </i>
+  </button>
+  <!-- Profile Overlay Modal -->
+  <div aria-hidden="true" aria-label="Profil Pribadi" aria-modal="true" class="fixed inset-0 hidden items-center justify-center z-50" id="profileOverlay" role="dialog">
+   <div class="absolute inset-0 bg-indigo-500 bg-opacity-40 backdrop-blur-sm"></div>
+   <aside class="relative bg-white shadow-lg rounded-lg max-w-md w-full max-h-[90vh] overflow-y-auto p-6 flex flex-col" id="profilePanel" tabindex="0">
+    <header class="flex items-center justify-between mb-4">
+     <h2 class="text-xl font-semibold text-indigo-700 select-none">
+      Profil Saya
+     </h2>
+     <button aria-label="Tutup Profil" class="text-indigo-600 hover:text-indigo-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 rounded" id="closeProfileBtn">
+      <i class="fas fa-times fa-lg">
+      </i>
+     </button>
+    </header>
+    <div class="flex flex-col items-center space-y-4">
+     <img class="rounded-full w-36 h-36 object-cover shadow-md" height="150" src="pf.jpeg" width="150"/>
+     <h3 class="text-center text-lg font-semibold text-indigo-700 select-text">
+      Muhammad Alfarizzi
+     </h3>
+     <p class="text-indigo-800 text-center select-text">
+      Saya adalah seorang Mahasiswa Di Universitas Nusa Putra
+      Jurusan Teknik Informatika
+     </p>
+     <ul class="text-indigo-700 space-y-2 w-full">
+      <li class="flex items-center">
+       <i class="fas fa-envelope mr-2 w-5 text-center">
+       </i>
+       <span>
+        muhammad.alfarizzi_ti24@nusaputra.ac.id
+       </span>
+      </li>
+      <li class="flex items-center">
+       <i class="fas fa-phone mr-2 w-5 text-center">
+       </i>
+       <span>
+        +62 852 1630 0712
+       </span>
+      </li>
+      <li class="flex items-center">
+       <i class="fas fa-map-marker-alt mr-2 w-5 text-center">
+       </i>
+       <span>
+        Sukabumi, Jawa Barat, Indonesia
+       </span>
+      </li>
+     </ul>
+    </div>
+   </aside>
+  </div>
+  <!-- Modal Overlay for Images -->
+  <div aria-hidden="true" aria-label="Overview gambar" aria-modal="true" class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center p-4 opacity-0 pointer-events-none transition-opacity duration-300 z-50" id="imageModal" role="dialog">
+   <div class="relative max-w-4xl max-h-[90vh] w-full rounded-lg overflow-hidden shadow-lg bg-white">
+    <button aria-label="Tutup overview gambar" class="absolute top-3 right-3 text-gray-700 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 rounded z-50" id="closeModalBtn">
+     <i class="fas fa-times fa-lg">
+     </i>
+    </button>
+    <img alt="" class="w-full h-auto object-contain" id="modalImage" src=""/>
+    <p class="p-4 text-center text-gray-700 text-sm" id="modalCaption">
+    </p>
+   </div>
+  </div>
+  <footer class="w-full bg-indigo-100 text-indigo-700 text-center py-4 mt-8 select-none shadow-inner">
+   © 2024 Artikel Pribadi. Hak cipta dilindungi.
+  </footer>
+  <script>
+   const profileOverlay = document.getElementById('profileOverlay');
+    const profilePanel = document.getElementById('profilePanel');
+    const toggleBtn = document.getElementById('toggleProfileBtn');
+    const closeProfileBtn = document.getElementById('closeProfileBtn');
+
+    function showProfile() {
+      profileOverlay.classList.add('show');
+      profileOverlay.classList.remove('hidden');
+      toggleBtn.setAttribute('aria-expanded', 'true');
+      profilePanel.focus();
+      document.body.style.overflow = 'hidden';
+    }
+
+    function hideProfile() {
+      profileOverlay.classList.remove('show');
+      profileOverlay.classList.add('hidden');
+      toggleBtn.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+      toggleBtn.focus();
+    }
+
+    toggleBtn.addEventListener('click', () => {
+      if (profileOverlay.classList.contains('hidden')) {
+        showProfile();
+      } else {
+        hideProfile();
+      }
+    });
+
+    closeProfileBtn.addEventListener('click', () => {
+      hideProfile();
+    });
+
+    profileOverlay.addEventListener('click', e => {
+      if (e.target === profileOverlay) {
+        hideProfile();
+      }
+    });
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && !profileOverlay.classList.contains('hidden')) {
+        hideProfile();
+      }
+    });
+
+    // Image modal logic
+    const imageModal = document.getElementById('imageModal');
+    const modalImage = document.getElementById('modalImage');
+    const modalCaption = document.getElementById('modalCaption');
+    const closeModalBtn = document.getElementById('closeModalBtn');
+
+    // Select all images inside articles
+    const articleImages = document.querySelectorAll('section article div.md\\:w-72 img');
+
+    articleImages.forEach(img => {
+      img.addEventListener('click', () => {
+        modalImage.src = img.src.replace('288x180?text=', '800x500?text=');
+        modalImage.alt = img.alt;
+        modalCaption.textContent = img.nextElementSibling.textContent;
+        imageModal.classList.remove('opacity-0', 'pointer-events-none');
+        imageModal.setAttribute('aria-hidden', 'false');
+        closeModalBtn.focus();
+      });
+      img.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          img.click();
+        }
+      });
+    });
+
+    function closeModal() {
+      imageModal.classList.add('opacity-0', 'pointer-events-none');
+      imageModal.setAttribute('aria-hidden', 'true');
+      modalImage.src = '';
+      modalCaption.textContent = '';
+    }
+
+    closeModalBtn.addEventListener('click', closeModal);
+
+    imageModal.addEventListener('click', e => {
+      if (e.target === imageModal) {
+        closeModal();
+      }
+    });
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && !imageModal.classList.contains('opacity-0')) {
+        closeModal();
+      }
+    });
+  </script>
+ </body>
+</html>
